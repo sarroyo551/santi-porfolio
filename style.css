@@ -1,0 +1,27 @@
+header {
+    background-color: rgb(253, 208, 154);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    /* justify-content: space-between; */
+}
+nav {
+    list-style: none;
+}
+
+h1 {
+    color: rgb(74, 64, 51);
+}
+
+.aricle-image-div {
+    background-color: rgb(253, 208, 154);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
