@@ -9,17 +9,24 @@ header {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+    min-width: 350px;
 }
 
 header nav ul li {
     display: inline-block;
-    /* justify-content: space-between; */
-    padding-right: 50px;
+    text-align: center;
+    padding: 5px 15px;
 }
 nav {
     list-style: none;
-    /* width: 100%; */
+    width: 80%;
 }
+
+nav ul {
+    padding: none;
+    display: flex;
+    justify-content: space-evenly;
+} 
 
 h1 {
     color: rgb(74, 64, 51);
@@ -31,6 +38,7 @@ h1 {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+    min-width: 350px;
 }
 
 .projects-div {
@@ -39,6 +47,7 @@ h1 {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+    min-width: 350px;
 }
 
 .image1 {
@@ -54,12 +63,14 @@ footer {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+    min-width: 350px;
 }
 
 footer ul {
     /* float: right; */
     list-style-type: none;
     display: flex;
+    padding: 0;
 }
 
 .footer-list-item {
@@ -137,5 +148,11 @@ li:hover {
 @media screen and (max-width: 768px) {
     body {
         padding: 0 20px;
+    }
+    .project {
+        width:100%;
+    }
+    .sub-projects {
+        flex-wrap: wrap;
     }
 }
