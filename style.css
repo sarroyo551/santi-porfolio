@@ -32,14 +32,13 @@ h1 {
     padding: 20px;
 }
 
-
-
 .projects-div {
     text-align: center;
     background-color: rgb(253, 208, 154);
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
+    
 }
 
 .image1 {
@@ -71,20 +70,29 @@ footer ul {
 
 .contacts {
     text-align: center;
+    padding: 20px;
+    border: rgb(255, 179, 152) solid ;
+    border-radius: 10px;
 }
+
 
 li:hover {
     background-color: blanchedalmond;
     border-radius: 10px;
     text-shadow: rgb(223, 197, 165);
+    cursor: pointer;
     /* justify-content: center; */
     /* the text shadow is off centered ^*/
 }
 
-.bio-text {
+.bio-text  {
     padding: 20px;
+    border: rgb(255, 179, 152) solid ;
+    border-radius: 10px;
 }
 
-.about-me {
+.projects-text {
     padding: 20px;
+    border: rgb(255, 179, 152) solid ;
+    border-radius: 10px;
 }
