@@ -1,5 +1,6 @@
 body {
     background-color: blanchedalmond;
+    padding: 0 100px;
 }
 
 header {
@@ -38,7 +39,6 @@ h1 {
     margin: 10px;
     border-radius: 5px;
     padding: 20px;
-    
 }
 
 .image1 {
@@ -95,4 +95,47 @@ li:hover {
     padding: 20px;
     border: rgb(255, 179, 152) solid ;
     border-radius: 10px;
+}
+
+.project-one {
+    position: relative;
+
+}
+
+.project-one img {
+    width: 100%;
+}
+
+.project-one p {
+    /* position: absolute; */
+    background-color: rgb(225, 175, 115);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.sub-projects {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 48%;
+
+}
+
+.project img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        padding: 0 20px;
+    }
 }
