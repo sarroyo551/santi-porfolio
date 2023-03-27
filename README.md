@@ -4,4 +4,4 @@ This project is made only with HTML and CSS. The application has a navigation ba
 
 ![porfolio-screenshot](./assets/portfolio-page.png)
 
-See my porfolio [here] (https://sarroyo551.github.io/santi-porfolio/)
+See my porfolio [here](https://sarroyo551.github.io/santi-porfolio/)
